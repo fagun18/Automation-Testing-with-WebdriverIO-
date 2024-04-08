@@ -68,7 +68,7 @@ Once the command is done running, you should be able to see the results of the t
 
 Check out this YouTube video for a demo of running WebdriverIO tests:
 
-[![WebdriverIO Demo](https://img.youtube.com/vi/your-video-id/0.jpg)](https://www.youtube.com/watch?v=your-video-id)
+[![WebdriverIO Demo](https://img.youtube.com/vi/your-video-id/0.jpg)](https://webdriver.io/img/create-wdio-dark.gif)
 
 ## Contributing
 
