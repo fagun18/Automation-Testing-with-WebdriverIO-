@@ -1,0 +1,4 @@
+/**
+ *
+ */
+export declare function removeDiacritics(input: string): string;

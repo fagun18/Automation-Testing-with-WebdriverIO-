@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@wdio/cli": "^8.35.1",
+    "@wdio/globals": "^8.35.1",
+    "faker": "^5.5.3"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^8.35.1",
+    "@wdio/mocha-framework": "^8.35.0",
+    "@wdio/spec-reporter": "^8.32.4",
+    "cypress": "^13.7.2"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  }
+}

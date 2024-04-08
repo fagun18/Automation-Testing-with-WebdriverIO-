@@ -1,0 +1,5 @@
+import { IKeywords } from './IKeywords';
+/**
+ *
+ */
+export declare function searchKeywords(haystack: IKeywords, needle: IKeywords): boolean;
