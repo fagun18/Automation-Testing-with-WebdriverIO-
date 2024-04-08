@@ -13,15 +13,6 @@ Welcome to the WebdriverIO Testing repository! This repository contains code and
 - Command line interface for easy configuration setup
 - Integration with various test frameworks and reporter plugins
 
-## Overview
-
-WebdriverIO is a prevalent JavaScript testing framework with the following statistics:
-
-- Stars: 8.5K
-- Contributors: 564
-- Forks: 2.4K
-- Releases: 443
-- Used by: 56.7K
 
 ## Getting Started
 
