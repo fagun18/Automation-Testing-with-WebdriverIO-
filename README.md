@@ -54,10 +54,16 @@ To get started with WebdriverIO, follow these steps:
     ```
 
 Once the command is done running, you should be able to see the results of the tests on the command line.
+## Video Tutorial
+
+[![WebdriverIO](https://img.youtube.com/vi/EPjajfWZyPw/maxresdefault.jpg)](https://youtu.be/EPjajfWZyPw)
+
+Watch the video tutorial for a visual guide on getting started with Jasmine.
+
 
 ## Watch a Demo
 
-Check out this ![YouTube video](https://youtu.be/EPjajfWZyPw) for a demo of running WebdriverIO tests:
+Check out this demo of running WebdriverIO tests:
 
 ![Run Test](https://webdriver.io/img/create-wdio-dark.gif)
 
