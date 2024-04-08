@@ -86,6 +86,6 @@ We welcome contributions to this repository! To contribute, follow these steps:
 [![Medium](https://img.shields.io/badge/Medium-Follow-blue)](https://fagun18.medium.com/)
 
 
-![Mejbaur Bahar (🤖) Fagun](https://th.bing.com/th/id/OIP.kZ7sZWgg-zvkLAeAjttqpgHaHa?rs=1&pid=ImgDetMain)  
-**Mejbaur Bahar (🤖) Fagun**  
+![Mejbaur Bahar Fagun](https://th.bing.com/th/id/OIP.kZ7sZWgg-zvkLAeAjttqpgHaHa?rs=1&pid=ImgDetMain)  
+**Mejbaur Bahar Fagun**  
 Product Acceptance Engineer (L2) @ DEVxHUB | 🥸 Lead SQA and 🐞 Security Analysts 🐛 Bug Bounty 👻 DevSecOps
