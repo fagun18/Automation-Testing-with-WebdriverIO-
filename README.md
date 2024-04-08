@@ -57,7 +57,7 @@ Once the command is done running, you should be able to see the results of the t
 
 ## Watch a Demo
 
-Check out this YouTube video for a demo of running WebdriverIO tests:
+Check out this [YouTube video](https://youtu.be/EPjajfWZyPw) for a demo of running WebdriverIO tests:
 
 ![Run Test](https://webdriver.io/img/create-wdio-dark.gif)
 
