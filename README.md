@@ -2,7 +2,7 @@
 
 Welcome to the WebdriverIO Testing repository! This repository contains code and examples for implementing test automation using WebdriverIO, a powerful test automation framework for Node.js. With WebdriverIO, you can conduct end-to-end, unit, and component testing in the browser environment.
 
-![WebdriverIO](https://example.com/your-image.jpg)
+![WebdriverIO](https://th.bing.com/th/id/OIP.Oih_pPGaXHEMV1uY_0erZQAAAA?rs=1&pid=ImgDetMain)
 
 ## Features
 
@@ -48,7 +48,7 @@ To get started with WebdriverIO, follow these steps:
 
     describe("Form Submit Demo", () => {
         it("should fill form input fields", async () => {
-            await browser.url('https://www.lambdatest.com/selenium-playground/ajax-form-submit-demo');
+            await browser.url('https://www.fagun.com');
             await $("#title").setValue("John Doe");
             await $("#description").setValue("Hello there");
             await $("#btn-submit").click();
