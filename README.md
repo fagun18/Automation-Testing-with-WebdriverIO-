@@ -44,16 +44,22 @@ To get started with WebdriverIO, follow these steps:
 4. **Create a `Tests` folder in your project directory. Inside the `Tests` folder, create a `Specs` folder. Then, create a file called `test.e2e.js` inside the `Specs` folder and add your test script.**
 
     ```javascript
-    const { expect, browser, $ } = require("@wdio/globals");
 
-    describe("Form Submit Demo", () => {
-        it("should fill form input fields", async () => {
-            await browser.url('https://www.lambdatest.com/selenium-playground/ajax-form-submit-demo');
-            await $("#title").setValue("John Doe");
-            await $("#description").setValue("Hello there");
-            await $("#btn-submit").click();
-        });
-    });
+await browser.emulateDevice('iPhone X')
+await browser.enablePerformanceAudits({
+    networkThrottling: 'Good 3G',
+    cacheEnabled: true,
+    formFactor: 'mobile'
+})
+
+// open application under test
+await browser.url('https://localhost:3000')
+
+expect(await browser.getMetrics().firstMeaningfulPaint)
+    .toBeBelow(2500)
+
+const pwaCheckResult = await browser.checkPWA()
+expect(pwaCheckResult.passed).toBe(true)
     ```
 
 5. **Run the test:**
