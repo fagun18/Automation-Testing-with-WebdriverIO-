@@ -14,7 +14,7 @@ async function sendResultsToSlack(message, progressMessage, snapshotPath) {
     // You'll need to implement this function using Slack API
     // Here's a basic example using webhook URL:
 
-    const slackWebhookUrl = 'Use your slack webhook URL';
+    const slackWebhookUrl = 'Insert your Slack webhook url';
 
     const axios = require('axios');
 
@@ -57,7 +57,9 @@ async function sendResultsToSlack(message, progressMessage, snapshotPath) {
 describe("SauceDemo Automation Test", () => {
     it("should complete the purchase process", async () => {
         try {
-            await browser.setWindowSize(1920, 1080);
+            // Set browser window size to maximal screen resolution
+            await browser.maximizeWindow();
+
             await browser.url('https://www.saucedemo.com/');
             await browser.pause(3000);
             await sendResultsToSlack("Test started", "Navigated to saucedemo.com");
@@ -163,7 +165,7 @@ describe("SauceDemo Automation Test", () => {
             await takeScreenshot("test_result.png");
 
             // Send test results to Slack with snapshot
-            await sendResultsToSlack("Test completed successfully!", null, "test_result.png");
+            await sendResultsToSlack("Automation Testing completed successfully!", null, "test_result.png");
         } catch (error) {
             console.error('Error occurred:', error);
             await sendResultsToSlack("Test failed with error: " + error.message);
